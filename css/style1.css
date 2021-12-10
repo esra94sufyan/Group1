@@ -1,5 +1,9 @@
 body{
-    background: #fff;
+    padding: 0;
+    margin: 0;
+    line-height: 1.45;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
+    background: #EEEEEE;;
 }
 
 *{margin: 0%;
@@ -8,21 +12,67 @@ body{
     header{display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background-color: #31326F;
+        background-color: #AAD8D3;
        
     }
     
-    .logo{color: white;
+    .logo{
+        color: #393E46;
     font-size: 40px;
     margin-left: 50px;}
     
     .btn{margin-right: 50px;
-    padding: 10px 20px 10px 20px;}
+    padding: 10px 20px 10px 20px;
+background: #393E46;
+color:#AAD8D3;}
     
     .navbar{
     margin-top: 10px;}
     
-    .navbar a{color: white;
+    .navbar a{color: #393E46;
     text-decoration: none;
     font-size: 20px;
     margin: 20px;}
+
+    .features{
+        padding: 80%;
+    }
+
+    footer
+        {
+
+            position: relative;
+            background: #282727;
+            color:#AAD8D3;
+            padding-top: 50px;
+            
+        }
+
+        footer .copyright{ 
+        font-size: 1rem; 
+        text-align: center; 
+        font-weight: lighter; 
+        letter-spacing: .1rem; 
+        color: #AAD8D3;
+        border-top: .1rem solid #AAD8D3;; 
+
+        padding: 1rem 1rem; 
+        
+        } 
+        footer .navbar{display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 20%;}
+
+        footer .navbar a{
+            color: #AAD8D3;
+        }
+
+        footer .copyright .add{ 
+            color: #EEEEEE;
+        }
+        .logo2{color: #AAD8D3;
+            font-size: 25px;
+            margin-left: 50px;
+        }
+        
